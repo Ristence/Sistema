@@ -4,8 +4,11 @@
 }
 /* 7fb7be    D3F3EE    272838 */
 .body{
-	background-color: #7fb7be ;
-    
+	background-image: url("file:///G:/Mi%20unidad/Git/Sistema/resources/Cerca.png");
+    background-color: transparent;
+	background-repeat: no-repeat;
+  	background-attachment: fixed;
+  	background-position: center;
 }
 
 .contenedor{
