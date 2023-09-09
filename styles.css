@@ -5,7 +5,7 @@
 }
 /* 7fb7be    D3F3EE    272838 */
 .body{
-	background-image: url("../resources/Cerca.png");
+	background-image: url(../assets/img/Cerca.png);
     background-color: transparent;
 	background-repeat: no-repeat;
   	background-attachment: fixed;
