@@ -1,82 +1,26 @@
-#header{
-	background-color: #032830;
-	text-align: right;
-	
-}
+
 /* 7fb7be    D3F3EE    272838 */
 .body{
-	background-image: url("https://github.com/Ristence/Sistema/blob/main/assets/img/Cerca.png");
-    
-	background-repeat: no-repeat;
+	margin-top: 55px;
+	background-image: url("G:/Mi unidad/Blender/Renders/hj.png");
+    background-repeat: no-repeat;
   	background-attachment: fixed;
   	background-position: center;
 }
 
-.contenedor{
+.login_container{
+	
+	margin-top: 20px;
+	height: 100vh;
 	display: flex;
-	justify-content: center;
-	height: 800px;
 	align-items: center;
-	align-content: center;
+	justify-content: center;
 	border: 2px solid red;
 	text-align: center;
-	backdrop-filter: blur(10px)
+	backdrop-filter: blur(10px);
 	
 }
 
-.patas{
-	background-color: #547a6d;
-	color: red;
-	padding: 20px 0;
-	margin-top: 100%;
-	
-}
 
-.col-2{
-	margin-top: 7%;
-	border: 2px solid red;
 
-}
-.col-8{
-	margin-top: 7%;
-	border: 2px solid blue;
-
-}
-.tabs-left {
-	border-bottom: none;
-	border-right: 1px solid #ddd;
-  }
-  
-  .tabs-left>li {
-	float: none;
-   margin:0px;
-	
-  }
-  
-  .tabs-left>li.active>a,
-  .tabs-left>li.active>a:hover,
-  .tabs-left>li.active>a:focus {
-	border-bottom-color: #ddd;
-	border-right-color: transparent;
-	background:#f90;
-	border:none;
-	border-radius:0px;
-	margin:0px;
-  }
-  .nav-tabs>li>a:hover {
-	  /* margin-right: 2px; */
-	  line-height: 1.42857143;
-	  border: 1px solid transparent;
-	  /* border-radius: 4px 4px 0 0; */
-  }
-  .tabs-left>li.active>a::after{content: "";
-	  position: absolute;
-	  top: 10px;
-	  right: -10px;
-	  border-top: 10px solid transparent;
-	border-bottom: 10px solid transparent;
-	
-	border-left: 10px solid #f90;
-	  display: block;
-	  width: 0;}
 
