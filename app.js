@@ -1,13 +1,20 @@
-function leftTabs (){
-    var actionElement = document.querySelector('#myTab a[href="#profile"]')
-    bootstrap.Tab.getInstance(actionElement).show;
-}
 
 
-var boton = document.getElementById("miBoton");
 
-  // Agrega un evento de clic al botón
-  boton.addEventListener("click", function() {
-    // La función que se ejecutará cuando se haga clic en el botón
-    alert("¡Hola, mundo!");
-  });
+  function ingresar(nombre_ingreso){
+    const listaOrdenes = document.getElementById("listaOrdenes");
+    const nuevoAlgo = document.createElement("li");
+    nuevoAlgo.textContent = nombre_ingreso;
+    listaOrdenes.appendChild(nuevoAlgo);
+    
+  }
+  
+  const formulario = document.getElementById("formIngresar");
+  formulario.addEventListener("submit", 
+    function(event){
+      alert("¡Hola, mundo!");
+      const nombre_ingreso = document.getElementById("nombre_O").value;
+      ingresar(nombre_ingreso);
+      document.getElementById("nombre_O").value = "";
+      
+    });
