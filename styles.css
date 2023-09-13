@@ -1,6 +1,6 @@
 
 /* 7fb7be    D3F3EE    272838 */
-.body{
+.body{/*background only*/
 	margin-top: 55px;
 	background-image: url("G:/Mi unidad/Blender/Renders/Cerca.png");
     background-repeat: no-repeat;
@@ -20,7 +20,16 @@
 	backdrop-filter: blur(10px);
 	
 }
+#box-container object{
+	width: 100%;
+	height: 100%;
 
+}
+.col-2{
+	border: 1px solid yellowgreen; 
+	color: white; 
+	justify-content: center;
+}
 
 
 
