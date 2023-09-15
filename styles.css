@@ -22,12 +22,12 @@
 }
 #box-container object{
 	width: 100%;
-	height: 100%;
+	background-color: transparent;
 
 }
 .col-2{
 	border: 1px solid yellowgreen; 
-	color: white; 
+	
 	justify-content: center;
 }
 
