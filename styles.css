@@ -26,9 +26,9 @@
 	
 }
 
- .login-divider {
-	border: 2px solid rgb(207, 207, 207);
-	width: 400px;
+.login-divider {
+	border: 1px solid rgb(207, 207, 207);
+	width: 100px;
 }
 
 
