@@ -1,26 +1,38 @@
 
 /* 7fb7be    D3F3EE    272838 */
 .body{/*background only*/
-	margin-top: 55px;
+	margin-top: 30%;
 	background-image: url("G:/Mi unidad/Blender/Renders/Cerca.png");
     background-repeat: no-repeat;
   	background-attachment: fixed;
   	background-position: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .login_container{
 	
 	margin-top: 20px;
-	height: 100vh;
+	height: 200px;
+	width: 600px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	border: 2px solid red;
+	border: 2px solid rgb(207, 207, 207);
+	border-radius: 5%;
 	text-align: center;
 	backdrop-filter: blur(10px);
 	
 }
 
+ .login-divider {
+	border: 2px solid rgb(207, 207, 207);
+	width: 400px;
+}
+
+
+/*Dashboard.html
 
 #box-container object{
 	width: 100%;
