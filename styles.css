@@ -1,7 +1,7 @@
 
 /* 7fb7be    D3F3EE    272838 */
 .body{/*background only*/
-	margin-top: 30%;
+	margin-top: 15%;
 	background-image: url("G:/Mi unidad/Blender/Renders/Cerca.png");
     background-repeat: no-repeat;
   	background-attachment: fixed;
@@ -13,22 +13,37 @@
 
 .login_container{
 	
-	margin-top: 20px;
+	
 	height: 200px;
-	width: 600px;
+	width: 700px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	border: 2px solid rgb(207, 207, 207);
+	
 	border-radius: 5%;
 	text-align: center;
 	backdrop-filter: blur(10px);
 	
 }
 
-.login-divider {
-	border: 1px solid rgb(207, 207, 207);
-	width: 100px;
+
+
+.col-2 {
+	margin-top: 100px;
+	margin-bottom: 50px;
+	background-color: black;
+	
+	
+}
+.btn-outline-light{
+	display: flex;
+	margin-top: 100px;
+	align-content: center;
+}
+.accordion{
+	margin-top: 50px;
+	margin-bottom: 50px;
+	
 }
 
 
