@@ -2,10 +2,11 @@
 /* 7fb7be    D3F3EE    272838 */
 .body{/*background only*/
 	margin-top: 15%;
-	background-image: url("G:/Mi unidad/Blender/Renders/Cerca.png");
+	background-image: url("G:/Mi unidad/hospital_las_higueras_cover.jpg");
     background-repeat: no-repeat;
   	background-attachment: fixed;
   	background-position: center;
+	background-size: cover;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -14,8 +15,8 @@
 .login_container{
 	
 	
-	height: 200px;
-	width: 700px;
+	height: 300px;
+	width: 1000px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -28,37 +29,8 @@
 
 
 
-.col-2 {
-	margin-top: 100px;
-	margin-bottom: 50px;
-	background-color: black;
-	
-	
-}
-.btn-outline-light{
-	display: flex;
-	margin-top: 100px;
-	align-content: center;
-}
-.accordion{
-	margin-top: 50px;
-	margin-bottom: 50px;
-	
-}
 
 
-/*Dashboard.html
-
-#box-container object{
-	width: 100%;
-	background-color: transparent;
-
-}
-.col-2{
-	border: 1px solid yellowgreen; 
-	
-	justify-content: center;
-}
 
 
 
